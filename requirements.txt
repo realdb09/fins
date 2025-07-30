@@ -1,0 +1,27 @@
+fastapi==0.111.0
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+httpx==0.25.2
+numpy==1.24.3
+scikit-learn==1.3.2
+sentence-transformers==2.2.2
+websockets==12.0
+python-multipart==0.0.6
+jinja2==3.1.2
+
+# LLM 제공자별 패키지 (선택적 설치)
+openai>=1.0.0
+google-generativeai>=0.3.0
+ollama>=0.1.0
+
+# 모니터링 및 추적 (선택적 설치)
+langfuse>=2.0.0
+arize-phoenix>=3.0.0
+
+# 데이터베이스 드라이버 (선택적 설치)
+pymysql>=1.1.0
+redis>=5.0.1
+opensearch-py>=2.4.0
